@@ -62,10 +62,8 @@ Home Assistant provides access to the sensor readings and allows supported senso
 | 3 | C5, C7, C12, C15 | CL10A226MP8NUNE | CL10A226MP8NUNE | 4 | [Link](https://www.lcsc.com/product-detail/C86295.html) |
 | 4 | R1, R4 | RC0603FR-0710KL | RC0603FR-0710KL | 2 | [Link](https://www.lcsc.com/product-detail/C98220.html) |
 | 5 | R2, R3 | RC0603FR-075K1L | RC0603FR-075K1L | 2 | [Link](https://www.lcsc.com/product-detail/C105580.html) |
-| 6 | U4, U7 | ~ | power_1 | 2 | — |
 | 7 | U1 | ESP32-WROOM-32U_8MB | ESP32-WROOM-32U_8MB | 1 | [Link](https://www.lcsc.com/product-detail/C328062.html) |
 | 8 | U2 | AP2114H-3_3TRG1 | AP2114H-3_3TRG1 | 1 | [Link](https://www.lcsc.com/product-detail/C150716.html) |
-| 9 | U3 | UART DOWNLOAD | 2_54-1_4 | 1 | — |
 | 10 | U5 | DISPLAY_1 | 2_54-1_4 | 1 | [Link](https://www.aliexpress.com/item/1005012793358185.html) |
 | 11 | U6 | DISPLAY_2 | 2_54-1_4 | 1 | [Link](https://www.aliexpress.com/item/1005012793358185.html) |
 | 12 | SW1 | TS-1088-AR02016 | TS-1088-AR02016 | 1 | [Link](https://www.lcsc.com/product-detail/C720477.html) |
