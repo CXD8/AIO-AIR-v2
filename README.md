@@ -54,22 +54,20 @@ Home Assistant provides access to the sensor readings and allows supported senso
 - Historical data
 - + more
 
-
-## BOM
-| Item | References | Value | Footprint | Quantity | Link |
-| ---: | :--- | :--- | :--- | :---: | :--- |
-| 1 | C1, C4, C6, C9, C11, C13, C14, C16, C19 | CL10B104KB8NNNC | CL10B104KB8NNNC | 9 | [Link](https://www.lcsc.com/product-detail/C1591.html) |
-| 2 | C2, C10, C17, C18 | CL10A106KP8NNNC | CL10A106KP8NNNC | 4 | [Link](https://www.lcsc.com/product-detail/C19702.html) |
-| 3 | C5, C7, C12, C15 | CL10A226MP8NUNE | CL10A226MP8NUNE | 4 | [Link](https://www.lcsc.com/product-detail/C86295.html) |
-| 4 | R1, R4 | RC0603FR-0710KL | RC0603FR-0710KL | 2 | [Link](https://www.lcsc.com/product-detail/C98220.html) |
-| 5 | R2, R3 | RC0603FR-075K1L | RC0603FR-075K1L | 2 | [Link](https://www.lcsc.com/product-detail/C105580.html) |
-| 7 | U1 | ESP32-WROOM-32U_8MB | ESP32-WROOM-32U_8MB | 1 | [Link](https://www.lcsc.com/product-detail/C328062.html) |
-| 8 | U2 | AP2114H-3_3TRG1 | AP2114H-3_3TRG1 | 1 | [Link](https://www.lcsc.com/product-detail/C150716.html) |
-| 10 | U5 | DISPLAY_1 | 2_54-1_4 | 1 | [Link](https://www.aliexpress.com/item/1005012793358185.html) |
-| 11 | U6 | DISPLAY_2 | 2_54-1_4 | 1 | [Link](https://www.aliexpress.com/item/1005012793358185.html) |
-| 12 | SW1 | TS-1088-AR02016 | TS-1088-AR02016 | 1 | [Link](https://www.lcsc.com/product-detail/C720477.html) |
-| 13 | CN1 | SGP41 | PH2_0-4P | 1 | [Link](https://sensirion.com/products/catalog/SGP41) |
-| 14 | CN2 | SCD30 | B5B-PH-K-S-_LF_SN | 1 | [Link](https://sensirion.com/products/catalog/SCD30) |
-| 15 | CN3 | SPS30 | B5B-PH-K-S-_LF_SN | 1 | [Link](https://sensirion.com/products/catalog/SPS30) |
-| 16 | CN4 | LUX SENSOR | B5B-PH-K-S-_LF_SN | 1 | [Link](https://www.aliexpress.com/item/1005007790877449.html) |
-| 17 | USB1 | TYPE-C_16P_QTWT | TYPE-C_16P_QTWT | 1 | [Link](https://www.lcsc.com/product-detail/C5187472.html) |
+| Item | References | Value | Footprint | Quantity | Unit Price (USD) | Total (USD) | Link |
+|---:|:---|:---|:---|---:|---:|---:|:---|
+| 1 | C1, C4, C6, C9, C11, C13, C14, C16, C19 | CL10B104KB8NNNC | CL10B104KB8NNNC | 9 | $0.0082 | $0.0738 | [LCSC](https://www.lcsc.com/product-detail/C1591.html) |
+| 2 | C2, C10, C17, C18 | CL10A106KP8NNNC | CL10A106KP8NNNC | 4 | $0.0308 | $0.1232 | [LCSC](https://www.lcsc.com/product-detail/C19702.html) |
+| 3 | C5, C7, C12, C15 | CL10A226MP8NUNE | CL10A226MP8NUNE | 4 | $0.0435 | $0.1740 | [LCSC](https://www.lcsc.com/product-detail/C86295.html) |
+| 4 | R1, R4 | RC0603FR-0710KL | RC0603FR-0710KL | 2 | $0.0034 | $0.0068 | [LCSC](https://www.lcsc.com/product-detail/C98220.html) |
+| 5 | R2, R3 | RC0603FR-075K1L | RC0603FR-075K1L | 2 | $0.0023 | $0.0046 | [LCSC](https://www.lcsc.com/product-detail/C105580.html) |
+| 7 | U1 | ESP32-WROOM-32U_8MB | ESP32-WROOM-32U_8MB | 1 | $4.5341 | $4.5341 | [LCSC](https://www.lcsc.com/product-detail/C328062.html) |
+| 8 | U2 | AP2114H-3_3TRG1 | AP2114H-3_3TRG1 | 1 | $0.2319 | $0.2319 | [LCSC](https://www.lcsc.com/product-detail/C150716.html) |
+| 10 | U5 | DISPLAY | 2_54-1_4 | 1 | $8.50 | $8.50 | [AliExpress](https://www.aliexpress.com/item/1005012793358185.html) |
+| 12 | SW1 | TS-1088-AR02016 | TS-1088-AR02016 | 1 | $0.0504 | $0.0504 | [LCSC](https://www.lcsc.com/product-detail/C720477.html) |
+| 13 | CN1 | SGP41 | PH2_0-4P | 1 | $9.01 | $9.01 | [Sensirion](https://sensirion.com/products/catalog/SGP41) |
+| 14 | CN2 | SCD30 | B5B-PH-K-S-_LF_SN | 1 | $47.36 | $47.36 | [Sensirion](https://sensirion.com/products/catalog/SCD30) |
+| 15 | CN3 | SPS30 | B5B-PH-K-S-_LF_SN | 1 | $38.99 | $38.99 | [Sensirion](https://sensirion.com/products/catalog/SPS30) |
+| 16 | CN4 | LUX SENSOR | B5B-PH-K-S-_LF_SN | 1 | $2.10 | $2.10 | [AliExpress](https://www.aliexpress.com/item/1005007790877449.html) |
+| 17 | USB1 | TYPE-C_16P_QTWT | TYPE-C_16P_QTWT | 1 | $0.0713 | $0.0713 | [LCSC](https://www.lcsc.com/product-detail/C5187472.html) |
+| **TOTAL** | | | | **30** | | **$111.23** | |
