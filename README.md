@@ -37,6 +37,7 @@ A compact ESP32 based air-quality monitor combining dedicated sensors for CO₂,
 6. Upload the firmware to the board.
 
 ### 2. Connect the Sensors
+Solder connections respectively from the sensors TX to RX, GND to GND, POWER to POWER as per silkscreen.
 
 ### 3. Configure Wi-Fi
 
