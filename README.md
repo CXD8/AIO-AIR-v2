@@ -1,8 +1,11 @@
 # AIO-AIR-V2
 
 A compact ESP32 based air-quality monitor combining dedicated sensors for CO₂, particulate matter, VOCs, NOx, temperature and humidity.
+# PCB
 ![Alt text](https://github.com/CXD8/AIO-AIR-v2/blob/71408ca1630c75612f7a3e87ab16bef816e1d59f/pcb/images/AIO-AIR-v2-pcb-front.PNG)
+# Assembly
 ![Alt text](https://github.com/CXD8/AIO-AIR-v2/blob/main/pcb/images/AIO-AIR-v2-assembled.png)
+# Schematic
 ![Alt text](https://github.com/CXD8/AIO-AIR-v2/blob/main/pcb/sch/sch.PNG)
 
 ## Features
@@ -27,14 +30,7 @@ A compact ESP32 based air-quality monitor combining dedicated sensors for CO₂,
 
 ## How to Use
 
-### 1. Flash the Firmware
-
-1. Download or clone this repository.
-2. Open the project in **Arduino IDE**.
-3. Install the required libraries.
-4. Select your **ESP32-S3** board and the correct COM/USB port.
-5. Connect the ESP32-S3 via USB.
-6. Upload the firmware to the board.
+### 1. Flash the Firmware using Ardiuno IDE
 
 ### 2. Connect the Sensors
 Solder connections respectively from the sensors TX to RX, GND to GND, POWER to POWER as per silkscreen.
@@ -52,7 +48,7 @@ Home Assistant provides access to the sensor readings and allows supported senso
 
 - Sensor enable/disable
 - Historical data
-- + more
+- more
 
 | Item | References | Value | Footprint | Quantity | Unit Price (USD) | Total (USD) | Link |
 |---:|:---|:---|:---|---:|---:|---:|:---|
