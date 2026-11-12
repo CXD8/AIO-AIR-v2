@@ -4,7 +4,7 @@ A compact ESP32 based air-quality monitor combining dedicated sensors for CO₂,
 # PCB
 ![Alt text](https://github.com/CXD8/AIO-AIR-v2/blob/71408ca1630c75612f7a3e87ab16bef816e1d59f/pcb/images/AIO-AIR-v2-pcb-front.PNG)
 # Assembly
-![Alt text](https://github.com/CXD8/AIO-AIR-v2/blob/main/pcb/images/AIO-AIR-v2-assembled.png)
+![Alt text](pcb/images/cad_new.png)
 # Schematic
 ![Alt text](https://github.com/CXD8/AIO-AIR-v2/blob/main/pcb/sch/sch.PNG)
 
@@ -67,3 +67,6 @@ Home Assistant provides access to the sensor readings and allows supported senso
 | 16 | CN4 | LUX SENSOR | B5B-PH-K-S-_LF_SN | 1 | $2.10 | $2.10 | [AliExpress](https://www.aliexpress.com/item/1005007790877449.html) |
 | 17 | USB1 | TYPE-C_16P_QTWT | TYPE-C_16P_QTWT | 1 | $0.0713 | $0.0713 | [LCSC](https://www.lcsc.com/product-detail/C5187472.html) |
 | **TOTAL** | | | | **30** | | **$111.23** | |
+
+Changelog:
+- Reworking housing for an open design. Easier Assembly.
